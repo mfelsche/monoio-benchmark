@@ -1,0 +1,11 @@
+[package]
+name = "async-std-server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+config = {path="../config"}
+
+async-std = "1"
+async-global-executor = "2"
+async-executor = "1.4"

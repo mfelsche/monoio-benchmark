@@ -4,6 +4,7 @@ members = [
     "monoio-server",
     "tokio-server",
     "glommio-server",
+    "async-std-server",
 
     "client",
 
